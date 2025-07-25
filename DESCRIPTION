@@ -1,0 +1,24 @@
+Package: VasAge
+Type: Package
+Title: Calculating vascular age in humans
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Yaxin", "Li",
+      email = "LYX010308@163.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: After the user provides baPWV, ABI, and MAP data, 
+    vascular age can be calculated directly using built-in parameters.
+    Users can also select their own features, build models and calculate vascular age.
+License:  MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.3.0)
+Imports:
+    bioage (>= 0.1.0),
+    lubridate (>= 1.9.4)
+
